@@ -24,9 +24,22 @@ To write a Python code to create a class for a person with a parameterized const
 ### PROGRAM
 
 ```
+class Person:
+def init(self,a,b):
+self.a = a
+self.b = b
 
+def display(self):
+print(b)
+
+a = input()
+b = input()
+c = Person(a,b)
+c.display()
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/9cad34b0-ad2c-4da3-becf-a7cc9ff7d937)
 
 ### RESULT
+Thus,the given python program is implemented and executed sucessfully.
