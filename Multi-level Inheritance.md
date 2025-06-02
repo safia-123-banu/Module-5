@@ -39,10 +39,28 @@ To write a Python program to get the name, age, and ID of a person and display t
 ### PROGRAM
 
 ```
-
+class A:
+def get(self):
+self.a = input()
+self.b = int(input())
+self.c = int(input())
+self.d = int(input())
+self.e = int(input())
+self.f = int(input())
+class B(A):
+def display(self):
+A.get(self)
+print("Name: ",self.a, end = " ")
+print("Rollno: ",self.b,end = " ")
+self.tot = self.c + self.d + self.e + self.f
+print("Total Marks out of 400: ",self.tot)
+obj = B()
+obj.display()
 
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/8c6bae85-3b82-464c-bec0-b9d3eeb3578a)
 
 ### RESULT
+Thus, the given python program is implemented and executed sucessfully.
