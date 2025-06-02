@@ -32,14 +32,33 @@ To write a Python program to get the name, attendance, and ID of a student and c
 ### PROGRAM
 
 ```
-
+class A:
+def get(self):
+self.a = input()
+self.b = int(input())
+self.c = int(input())
+class B:
+def check(self):
+if self.c > 90:
+print("Eligible for Placement")
+else:
+print("Not Eligible for Placement")
+class C(A,B):
+def display(self):
+A.get(self)
+print(self.a)
+print(self.b)
+B.check(self)
+ob = C()
+ob.display()
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/853b0c24-3985-44a6-8349-b522a89f5cb7)
 
 
 ### RESULT
-
+Thus , the given python program is implemented and executed sucessfully.
 
 
 
